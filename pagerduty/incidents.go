@@ -58,6 +58,8 @@ type IncidentsOptions struct {
 	SortBy string `url:"sort_by,omitempty"`
 	Since  string `url:"since,omitempty"`
 	Until  string `url:"until,omitempty"`
+	Offset string `url:"offset,omitempty"`
+	Limit  string `url:"limit,omitempty"`
 }
 
 // List returns a list of incidents
